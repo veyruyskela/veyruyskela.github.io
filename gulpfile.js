@@ -20,7 +20,11 @@ const path = {
                 css: "dist/css/",
                 js: "dist/js/",
                 img: "dist/img/**/*"
+        },
+        watch : {
+                scss: "src/**/*.scss"
         }
+
 };
 
 const cleanDist = () => (
@@ -58,7 +62,7 @@ const buildJS = () => (
 const watcher = () => {
         browserSync.init({
                 server: {
-                        baseDir: path.dist.self
+                        baseDir: "./"
                 }
         });
 
@@ -66,7 +70,6 @@ const watcher = () => {
         gulp.watch(path.src.js, buildJS).on('change', browserSync.reload);
         gulp.watch(path.src.img, buildIMG).on('change', browserSync.reload);
 };
-
 
 gulp.task('build', gulp.series(
     cleanDist,
