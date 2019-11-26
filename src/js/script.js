@@ -1,4 +1,4 @@
-/*
+
 
 let hamburger = document.querySelector(".header__hamburger");
 let menu = document.querySelector(".header__menu");
@@ -13,4 +13,3 @@ hamburger.addEventListener("click", function () {
         flag = 0;
     }
 });
-*/
