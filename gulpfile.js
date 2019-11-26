@@ -19,7 +19,7 @@ const path = {
                 self: "./dist",
                 css: "dist/css/",
                 js: "dist/js/",
-                img: "dist/img/**/*"
+                img: "dist/img/"
         },
         watch : {
                 scss: "src/**/*.scss"
@@ -48,6 +48,7 @@ const buildSCSS = () => (
         .pipe(concat("style.min.css"))
         .pipe(gulp.dest(path.dist.css))
 );
+
 
 const buildJS = () => (
     gulp.src(path.src.js)
