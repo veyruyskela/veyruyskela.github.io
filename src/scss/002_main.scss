@@ -14,7 +14,7 @@
   font-weight: 700;
   width: 119px;
   height: 37px;
- border-radius: 37px;
+  border-radius: 37px;
 }
 
 .header__hamburger {
@@ -31,4 +31,63 @@
     margin: 6px;
     padding: 0;
   }
+}
+/**/
+.hero {
+  background: url(../img/bg.jpg) center no-repeat no-repeat;
+  padding-bottom: 424px;
+  text-align: center;
+}
+
+.hero__header {
+  font-family: Montserrat, sans-serif;
+  font-size: 36px;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+  padding-top: 43px;
+}
+
+.hero__text {
+  font-family: Montserrat, sans-serif;
+  line-height: 2em;
+  letter-spacing: 3px;
+  font-size: 14px;
+  color: rgba(141, 129, 172, 1);
+  text-align: center;
+  padding-top: 20px;
+}
+
+.hero__version {
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  color: rgba(132, 142, 151, 1);
+  text-align: center;
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+
+.hero__bottom {
+  text-align: center;
+  position: relative;
+  bottom: 22px;
+}
+
+.hero__button {
+  background-color: #8d81ac;
+  border: none;
+  color: white;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  width: 290px;
+  height: 45px;
+  border-radius: 45px;
+}
+
+.hero_description {
+  padding-top: 13px;
+  font-family: ﻿Montserrat, sans-serif;
+  font-size: 14px;
+  color: rgba(132, 142, 151, 255);
+  text-align: center;
 }
