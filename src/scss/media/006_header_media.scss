@@ -1,0 +1,32 @@
+@media only screen and (min-width: 768px) {
+  .header__hamburger {
+    display: none;
+  }
+  .header__menu {
+    display: flex;
+    flex-direction: row;
+    background-color: #27262a;
+  }
+  .header__menu--nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #27262a;
+  }
+
+  .header__menu--item {
+    border-bottom: none;
+    flex-grow: 1;
+    background-color: #27262a;
+  }
+
+  .header__menu--nav-link {
+    color: rgba(141, 129, 172, 255);
+    font-size: 16px;
+    font-weight: 900;
+    &:hover {
+      border-left: none;
+    }
+  }
+
+}
