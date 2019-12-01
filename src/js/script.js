@@ -1,15 +1,15 @@
 
 
-let hamburger = document.querySelector(".header__hamburger");
-let menu = document.querySelector(".header__menu");
-let flag = 0;
+const hamburger = document.querySelector(".header__hamburger");
+const menu = document.querySelector(".header__menu");
+let flag = false;
 
 hamburger.addEventListener("click", function () {
-    if ( flag === 0 ) {
-        menu.style.display = "block";
-        flag = 1;
-    } else if ( flag === 1) {
-        menu.style.display = "none";
-        flag = 0;
-    }
+	if ( flag === false ) {
+		menu.style.display = "flex";
+		flag = true;
+	} else if ( flag === true ) {
+		menu.style.display = "none";
+		flag = false;
+	}
 });

@@ -1,0 +1,62 @@
+@import "../000_variables";
+
+@media only screen and (min-width: 576px) {
+  .header {
+    &__container {}
+    &__logo {
+      &__name {
+        display: block;
+      }
+    }
+    &__menu {
+      display: flex;
+      /* position: static; */
+      &__list {
+        background-color: #27262a;
+        flex-direction: row;
+        margin: 0;
+      }
+      &__item {
+        border: none;
+        padding: 19px 0;
+        margin: auto 0;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+      &__link {
+        color: $basic-purple;
+        font-size: 16px;
+        font-weight: 700;
+      }
+      &__span {
+        padding: 0;
+        border: none;
+        margin: auto 0;
+        height: auto;
+        &:hover {
+          color: white;
+          border: none;
+        }
+      }
+    }
+  &__hamburger {
+    display: none;
+    }
+  }
+}
+ 
+@media only screen and (min-width: 992px) {
+  .header {
+    &__container {
+    }
+    &__logo {
+    }
+    &__button {
+    }
+    &__menu {
+      &__list {}
+      &__item {}
+    }
+  }
+}
