@@ -5,11 +5,129 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Forkio</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="dist/css/style.min.css">
 </head>
 <body>
-    <section>
-        <div>Header</div>
+    <section class="rev-editor">
+      <h3 class="rev-editor__header" >Revolutionary editor</h3>
+        <p class="rev-editor__text">Aenean cursus imperdiet nisl id fermentum. Aliquam pharetra dui laoreet vulputate dignissim. Sed id metus id quam auctor molestie eget ut augue.
+        </p>
+        <div class="rev-editor__buttons">
+        <div class="rev-editor__button">
+            <button class="rev-editor__button-icon">
+                <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+                <span class="rev-editor__button-text">Watch</span>
+            </button>
+            <div class="rev-editor__button-value"><input type="text" value="1,397" readonly></div>
+        </div>
+        <div class="rev-editor__button">
+            <button class="rev-editor__button-icon">
+                <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path></svg>
+                <span class="rev-editor__button-text">Star</span>
+            </button>
+            <div class="rev-editor__button-value"><input class="star" type="text" value="21,038" readonly></div>
+        </div>
+        <div class="rev-editor__button">
+            <button class="rev-editor__button-icon">
+                <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+                <span class="rev-editor__button-text">Fork</span>
+            </button>
+            <div class="rev-editor__button-value"><input  type="text" value="4,391" readonly></div>
+        </div>
+        </div>
+    </section>
+    <section class="what-you-get">
+        <h2 class="what-you-get__header">&lt; Here is what you get &gt;</h2>
+        <div class="what-you-get__content-block">
+        <div class="what-you-get__content">
+            <div class="what-you-get__icon"><img src="src/img/what-you-get-icon1.png"  class="what-you-get__icon-img1" alt=""></div>
+
+            <div class="what-you-get__text">
+                <h5 class="what-you-get__text-header">Creatred to Make The Web Better</h5>
+                <p class="what-you-get__text-paragraph">Aenean cursus imperdiet nisl id fermentum. Aliquam pharetra dui laoreet vulputate dignissim. Sed id metus id quam auctor molestie eget ut augue.
+                </p>
+            </div>
+        </div>
+        <div class="what-you-get__content">
+            <div class="what-you-get__icon"><img src="src/img/what-you-get-icon2.png" class="what-you-get__icon-img2" alt=""></div>
+            <div class="what-you-get__text">
+                <h5 class="what-you-get__text-header">Incredibly Powerful Tool</h5>
+                <p class="what-you-get__text-paragraph">Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio, ut volutpat massa placerat ac. Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat.
+                </p>
+            </div>
+        </div>
+        <div class="what-you-get__content">
+            <div class="what-you-get__icon"><img src="src/img/what-you-get-icon3.png" class="what-you-get__icon-img3" alt=""></div>
+            <div class="what-you-get__text">
+                <h5 class="what-you-get__text-header">Experimental Stuff</h5>
+                <p class="what-you-get__text-paragraph">Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio, ut volutpat massa placerat ac. Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat.
+                </p>
+            </div>
+        </div>
+        <div class="what-you-get__content">
+            <div class="what-you-get__icon"><img src="src/img/what-you-get-icon4.png" class="what-you-get__icon-img4" alt=""></div>
+            <div class="what-you-get__text">
+                <h5 class="what-you-get__text-header">Creatred to Make The Web Better</h5>
+                <p class="what-you-get__text-paragraph">Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio, ut volutpat massa placerat ac. Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat.
+                </p>
+            </div>
+        </div>
+        </div>
+<div class="what-you-get__image">
+<!--    <img src="src/img/what-you-get-img-1200.png" alt="" >-->
+</div>
+
+
+    </section>
+    <section class="fork-subs-pricing">
+        <h3 class="fork-subs-pricing__header">Fork Subscription Pricing</h3>
+        <div class="fork-subs-pricing__pricing-blocks">
+        <div class="fork-subs-pricing__pricing-block">
+            <h4 class="fork-subs-pricing__pricing-block-header">Students</h4>
+            <div class="fork-subs-pricing__pricing-block-content">
+                <p class="fork-subs-pricing__pricing-block-price"><span class="fork-subs-pricing__pricing-block-dollar">$</span>29</p>
+                <p class="fork-subs-pricing__pricing-block-per-month">per month</p>
+                <div class="fork-subs-pricing__pricing-block-purple-line"></div>
+                <p class="fork-subs-pricing__pricing-block-description">Personal License</p>
+                <button class="fork-subs-pricing__pricing-block-button">Purchase</button>
+            </div>
+        </div>
+        <div class="fork-subs-pricing__pricing-block">
+            <h4 class="fork-subs-pricing__pricing-block-header">professional</h4>
+            <div class="fork-subs-pricing__pricing-block-content">
+                <p class="fork-subs-pricing__pricing-block-price"><span class="fork-subs-pricing__pricing-block-dollar">$</span>59</p>
+                <p class="fork-subs-pricing__pricing-block-per-month">per month</p>
+                <div class="fork-subs-pricing__pricing-block-purple-line"></div>
+                <p class="fork-subs-pricing__pricing-block-description">Professional License</p>
+                <p class="fork-subs-pricing__pricing-block-description">Email Support</p>
+                <button class="fork-subs-pricing__pricing-block-button">Purchase</button>
+            </div>
+        </div>
+        <div class="fork-subs-pricing__pricing-block-highlighted">
+            <h4 class="fork-subs-pricing__pricing-block-header-highlighted">agency</h4>
+            <div class="fork-subs-pricing__pricing-block-content-highlighted">
+                <p class="fork-subs-pricing__pricing-block-price-highlighted"><span class="fork-subs-pricing__pricing-block-dollar-highlighted">$</span>99</p>
+                <p class="fork-subs-pricing__pricing-block-per-month">per month</p>
+                <div class="fork-subs-pricing__pricing-block-purple-line"></div>
+                <p class="fork-subs-pricing__pricing-block-description">1-12 Team Members</p>
+                <p class="fork-subs-pricing__pricing-block-description">Phone Support</p>
+                <button class="fork-subs-pricing__pricing-block-button-highlighted">Purchase</button>
+            </div>
+        </div>
+        <div class="fork-subs-pricing__pricing-block">
+            <h4 class="fork-subs-pricing__pricing-block-header">enterprise</h4>
+            <div class="fork-subs-pricing__pricing-block-content">
+                <p class="fork-subs-pricing__pricing-block-price"><span class="fork-subs-pricing__pricing-block-dollar">$</span>159</p>
+                <p class="fork-subs-pricing__pricing-block-per-month">per month</p>
+                <div class="fork-subs-pricing__pricing-block-purple-line"></div>
+                <p class="fork-subs-pricing__pricing-block-description">Unlimited Team Members</p>
+                <p class="fork-subs-pricing__pricing-block-description">24/ 7 Phone Support</p>
+                <button class="fork-subs-pricing__pricing-block-button">Purchase</button>
+            </div>
+        </div>
+        </div>
     </section>
     <script src="dist/js/script.min.js"></script>
 </body>
