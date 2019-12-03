@@ -1,0 +1,48 @@
+@media screen and (min-width: 481px) and (max-width: 992px){
+  .rev-editor {
+    &__header {
+      font-size: 30px;
+      padding-bottom: 40px;
+    }
+
+    &__text {
+      font-size: 15px;
+      padding-left: 50px;
+      padding-right: 50px;
+      line-height: 30px;
+    }
+
+    &__button{
+      margin-top: 40px;
+    }
+  }
+}
+
+@media screen and (min-width: 993px){
+  .rev-editor {
+    &__header {
+      font-size: 40px;
+      padding-bottom: 40px;
+    }
+
+    &__text {
+      font-size: 20px;
+      padding-left: 50px;
+      padding-right: 50px;
+      line-height: 30px;
+    }
+
+    &__button{
+      margin-top: 40px;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .rev-editor{
+    width: 1200px;
+    margin:70px auto;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}

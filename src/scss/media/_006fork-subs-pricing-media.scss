@@ -1,0 +1,52 @@
+@media screen and (min-width: 481px) and (max-width: 992px) {
+  .fork-subs-pricing {
+    &__header{
+      font-size: 34px;
+    }
+    &__pricing-blocks{
+      grid-template-rows: repeat(2,auto);
+      grid-template-columns: repeat(2,auto);
+      row-gap:40px;
+    }
+    &__pricing-block{
+      align-self: center;
+    }
+    &__pricing-block-button-highlighted {
+      margin-bottom: 50px;
+    }
+  }
+}
+
+@media screen and (min-width: 993px){
+  .fork-subs-pricing {
+    &__header{
+      font-size: 40px;
+    }
+    &__pricing-blocks{
+      grid-template-rows: auto;
+      grid-template-columns: repeat(4,auto);
+      row-gap:0;
+      column-gap: 10px;
+      justify-content: center;
+    }
+    &__pricing-block-highlighted{
+      margin: 0;
+    }
+    &__pricing-block{
+      align-self: center;
+      margin: 0;
+    }
+    &__pricing-block-button-highlighted {
+      margin-bottom: 50px;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .fork-subs-pricing{
+    width: 1200px;
+    margin:0 auto;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}

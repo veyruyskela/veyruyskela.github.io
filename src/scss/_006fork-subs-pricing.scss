@@ -1,0 +1,111 @@
+.fork-subs-pricing{
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: #4b3b4e;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  &__header{
+    font-size: 24px;
+    color:white;
+    font-weight:bold;
+    padding: 70px 30px 50px 35px;
+    line-height: 35px;
+  }
+  &__pricing-blocks{
+    display: grid;
+    grid-template-rows: repeat(4,auto);
+  }
+  &__pricing-block:nth-child(even) &__pricing-block-button{
+    margin-top: 39px;
+  }
+  &__pricing-block{
+      margin: 0 auto;
+      width: 257px;
+      color:white;
+      padding-bottom: 15px;
+    }
+  &__pricing-block-header{
+       height: 52px;
+       background-color: #685b6a;
+       text-transform: uppercase;
+       font-size: 24px;
+       padding-top: 45px;
+     }
+  &__pricing-block-content{
+    background-color: #5f5161;
+  }
+  &__pricing-block-price{
+    font-weight: bold;
+    font-size: 60px;
+    padding-top: 30px;
+  }
+  &__pricing-block-dollar{
+      font-size: 60px;
+      font-weight: 400;
+    }
+  &__pricing-block-per-month{
+    color:#8f8691;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-top: 25px;
+  }
+  &__pricing-block-purple-line{
+    margin: 40px auto 15px;
+    width: 60px;
+    height: 5px;
+    background-color: #8d81ac;
+  }
+  &__pricing-block-description{
+    font-size: 16px;
+    padding-top: 15px;
+  }
+  &__pricing-block-button{
+    margin-top: 70px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    background-color: #776b79;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    color:white;
+    padding: 16px 37px 15px 38px;
+  }
+  /*********************************************/
+  &__pricing-block-highlighted{
+    margin: 0 auto;
+    width: 290px;
+    color:white;
+    padding-bottom: 15px;
+  }
+  &__pricing-block-header-highlighted{
+    height: 60px;
+    background-color: #3a2d3d;
+    text-transform: uppercase;
+    font-size: 24px;
+    padding-top: 51px;
+  }
+  &__pricing-block-content-highlighted{
+    background-color: #413344;
+  }
+  &__pricing-block-price-highlighted{
+    font-weight: bold;
+    font-size: 80px;
+    padding-top: 30px;
+  }
+  &__pricing-block-dollar-highlighted{
+    font-size: 60px;
+    font-weight: 400;
+  }
+
+  &__pricing-block-button-highlighted{
+    margin-top: 70px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    background-color: #776b79;
+    border: none;
+    border-radius: 50px;
+    font-size: 17px;
+    color:white;
+    padding: 20px 50px 20px 50px;
+  }
+}
