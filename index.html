@@ -1,15 +1,221 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Forkio</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="dist/css/style.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap">
 </head>
 <body>
-    <section>
-        <div>Header</div>
+<!-- -->
+  <header class="header">
+    <div class="header__container">
+
+      <a class="header__logo" href="#">
+        <img class="header__logo__image" src="src/img/logo.png" alt="pic">
+        <h1 class="header__logo__text">ForkIO</h1>
+      </a>
+
+      <button class="header__button">Buy Now</button>
+
+      <div class="header__hamburger">
+        <div class="header__hamburger__line"></div>
+        <div class="header__hamburger__line"></div>
+        <div class="header__hamburger__line"></div>
+      </div>
+
+      <div class="header__menu">
+        <ul  class="header__menu__list">
+          <li class="header__menu__item"><a href="#" class="header__menu__link"><span class="header__menu__span">Overview</span></a></li>
+          <li class="header__menu__item"><a href="#" class="header__menu__link"><span class="header__menu__span">About Fork</span></a></li>
+          <li class="header__menu__item"><a href="#" class="header__menu__link"><span class="header__menu__span">Buying Options</span></a></li>
+          <li class="header__menu__item"><a href="#" class="header__menu__link"><span class="header__menu__span">Support</span></a></li>
+        </ul>
+      </div>
+
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero__header">Fork App</div>
+    <div class="hero__subheader">A real gamechanger in the world of web development</div>
+    <div class="hero__text--small">v. 2.8 For Mac and Windows</div>
+    <div class="hero__bottom">
+      <button class="hero__button">Download For Free Now</button>
+      <div class="hero__text--bottom">Unlimited 30-Days Trial Period</div>
+    </div>
+  </section>
+
+    <section class="rev-editor">
+      <h3 class="rev-editor__header" >Revolutionary editor</h3>
+        <p class="rev-editor__text">Aenean cursus imperdiet nisl id fermentum. Aliquam pharetra dui laoreet vulputate dignissim. Sed id metus id quam auctor molestie eget ut augue.
+        </p>
+        <div class="rev-editor__buttons">
+        <div class="rev-editor__button">
+            <button class="rev-editor__button-icon">
+                <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+                <span class="rev-editor__button-text">Watch</span>
+            </button>
+            <div class="rev-editor__button-value"><input type="text" value="1,397" readonly></div>
+        </div>
+        <div class="rev-editor__button">
+            <button class="rev-editor__button-icon">
+                <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path></svg>
+                <span class="rev-editor__button-text">Star</span>
+            </button>
+            <div class="rev-editor__button-value"><input class="star" type="text" value="21,038" readonly></div>
+        </div>
+        <div class="rev-editor__button">
+            <button class="rev-editor__button-icon">
+                <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+                <span class="rev-editor__button-text">Fork</span>
+            </button>
+            <div class="rev-editor__button-value"><input  type="text" value="4,391" readonly></div>
+        </div>
+        </div>
+    </section>
+    <section class="what-you-get">
+        <h2 class="what-you-get__header">&lt; Here is what you get &gt;</h2>
+        <div class="what-you-get__content-block">
+        <div class="what-you-get__content">
+            <div class="what-you-get__icon"><img src="src/img/what-you-get-icon1.png"  class="what-you-get__icon-img1" alt=""></div>
+
+            <div class="what-you-get__text">
+                <h5 class="what-you-get__text-header">Creatred to Make The Web Better</h5>
+                <p class="what-you-get__text-paragraph">Aenean cursus imperdiet nisl id fermentum. Aliquam pharetra dui laoreet vulputate dignissim. Sed id metus id quam auctor molestie eget ut augue.
+                </p>
+            </div>
+        </div>
+        <div class="what-you-get__content">
+            <div class="what-you-get__icon"><img src="src/img/what-you-get-icon2.png" class="what-you-get__icon-img2" alt=""></div>
+            <div class="what-you-get__text">
+                <h5 class="what-you-get__text-header">Incredibly Powerful Tool</h5>
+                <p class="what-you-get__text-paragraph">Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio, ut volutpat massa placerat ac. Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat.
+                </p>
+            </div>
+        </div>
+        <div class="what-you-get__content">
+            <div class="what-you-get__icon"><img src="src/img/what-you-get-icon3.png" class="what-you-get__icon-img3" alt=""></div>
+            <div class="what-you-get__text">
+                <h5 class="what-you-get__text-header">Experimental Stuff</h5>
+                <p class="what-you-get__text-paragraph">Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio, ut volutpat massa placerat ac. Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat.
+                </p>
+            </div>
+        </div>
+        <div class="what-you-get__content">
+            <div class="what-you-get__icon"><img src="src/img/what-you-get-icon4.png" class="what-you-get__icon-img4" alt=""></div>
+            <div class="what-you-get__text">
+                <h5 class="what-you-get__text-header">Creatred to Make The Web Better</h5>
+                <p class="what-you-get__text-paragraph">Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio, ut volutpat massa placerat ac. Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat.
+                </p>
+            </div>
+        </div>
+        </div>
+<div class="what-you-get__image">
+<!--    <img src="src/img/what-you-get-img-1200.png" alt="" >-->
+</div>
+
+
+    </section>
+
+
+    <section class="testimonials">
+      <h2 class="testimonials__header">People Are Talking About Fork</h2>
+
+      <div class="testimonials__grid--container">
+
+        <div class="testimonials__grid--item">
+          <div class="testimonials__grid--image"><img src="dist/img/testimonials/1.png" alt="pic"></div>
+          <div class="testimonials__grid--text">Sed vestibulum scelerisque urna, eu finibus leo facilisis sit amet. Proin id dignissim magna. Sed varius urna et pulvinar venenatis.</div>
+        </div>
+
+        <div class="testimonials__grid--item">
+          <div class="testimonials__grid--image"><img src="dist/img/testimonials/2.png" alt="pic"></div>
+          <div class="testimonials__grid--text">Donec euismod dolor ut ultricies consequat. Vivamus urna ipsum, rhoncus molestie neque ac, mollis eleifend nibh.</div>
+        </div>
+
+        <div class="testimonials__grid--item">
+          <div class="testimonials__grid--image"><img src="dist/img/testimonials/3.png" alt="pic"></div>
+          <div class="testimonials__grid--text">In efficitur in velit et tempus. Duis nec odio dapibus, suscipit erat fringilla, imperdiet nibh. Morbi tempus auctor felis ac vehicula. </div>
+        </div>
+
+        <div class="testimonials__grid--item">
+          <div class="testimonials__grid--image"><img src="dist/img/testimonials/4.png" alt="pic"></div>
+          <div class="testimonials__grid--text">Sed vestibulum scelerisque urna, eu finibus leo facilisis sit amet. Proin id dignissim magna. Sed varius urna et pulvinar venenatis. </div>
+        </div>
+
+        <div class="testimonials__grid--item">
+          <div class="testimonials__grid--image"><img src="dist/img/testimonials/5.png" alt="pic"></div>
+          <div class="testimonials__grid--text">Praesent ut eros tristique, malesuada lectus vel, lobortis massa. Nulla faucibus lorem id arcu consequat faucibus. </div>
+        </div>
+
+        <div class="testimonials__grid--item">
+          <div class="testimonials__grid--image"><img src="dist/img/testimonials/6.png" alt="pic"></div>
+          <div class="testimonials__grid--text">Fusce pharetra erat id odio blandit, nec pharetra eros venenatis. Pellentesque porttitor cursus massa et vestibulum.</div>
+        </div>
+
+      </div>
+
+      <div class="testimonials__bottom">
+        Duis lobortis arcu sed arcu tincidunt feugiat. Nulla nisi mauris, facilisis vitae aliquet id, imperdiet quis nibh. Donec eget elit eu libero tincidunt consequat nec elementum orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+      </div>
+
+    </section>
+
+
+
+
+    <section class="fork-subs-pricing">
+        <h3 class="fork-subs-pricing__header">Fork Subscription Pricing</h3>
+        <div class="fork-subs-pricing__pricing-blocks">
+        <div class="fork-subs-pricing__pricing-block">
+            <h4 class="fork-subs-pricing__pricing-block-header">Students</h4>
+            <div class="fork-subs-pricing__pricing-block-content">
+                <p class="fork-subs-pricing__pricing-block-price"><span class="fork-subs-pricing__pricing-block-dollar">$</span>29</p>
+                <p class="fork-subs-pricing__pricing-block-per-month">per month</p>
+                <div class="fork-subs-pricing__pricing-block-purple-line"></div>
+                <p class="fork-subs-pricing__pricing-block-description">Personal License</p>
+                <button class="fork-subs-pricing__pricing-block-button">Purchase</button>
+            </div>
+        </div>
+        <div class="fork-subs-pricing__pricing-block">
+            <h4 class="fork-subs-pricing__pricing-block-header">professional</h4>
+            <div class="fork-subs-pricing__pricing-block-content">
+                <p class="fork-subs-pricing__pricing-block-price"><span class="fork-subs-pricing__pricing-block-dollar">$</span>59</p>
+                <p class="fork-subs-pricing__pricing-block-per-month">per month</p>
+                <div class="fork-subs-pricing__pricing-block-purple-line"></div>
+                <p class="fork-subs-pricing__pricing-block-description">Professional License</p>
+                <p class="fork-subs-pricing__pricing-block-description">Email Support</p>
+                <button class="fork-subs-pricing__pricing-block-button">Purchase</button>
+            </div>
+        </div>
+        <div class="fork-subs-pricing__pricing-block-highlighted">
+            <h4 class="fork-subs-pricing__pricing-block-header-highlighted">agency</h4>
+            <div class="fork-subs-pricing__pricing-block-content-highlighted">
+                <p class="fork-subs-pricing__pricing-block-price-highlighted"><span class="fork-subs-pricing__pricing-block-dollar-highlighted">$</span>99</p>
+                <p class="fork-subs-pricing__pricing-block-per-month">per month</p>
+                <div class="fork-subs-pricing__pricing-block-purple-line"></div>
+                <p class="fork-subs-pricing__pricing-block-description">1-12 Team Members</p>
+                <p class="fork-subs-pricing__pricing-block-description">Phone Support</p>
+                <button class="fork-subs-pricing__pricing-block-button-highlighted">Purchase</button>
+            </div>
+        </div>
+        <div class="fork-subs-pricing__pricing-block">
+            <h4 class="fork-subs-pricing__pricing-block-header">enterprise</h4>
+            <div class="fork-subs-pricing__pricing-block-content">
+                <p class="fork-subs-pricing__pricing-block-price"><span class="fork-subs-pricing__pricing-block-dollar">$</span>159</p>
+                <p class="fork-subs-pricing__pricing-block-per-month">per month</p>
+                <div class="fork-subs-pricing__pricing-block-purple-line"></div>
+                <p class="fork-subs-pricing__pricing-block-description">Unlimited Team Members</p>
+                <p class="fork-subs-pricing__pricing-block-description">24/ 7 Phone Support</p>
+                <button class="fork-subs-pricing__pricing-block-button">Purchase</button>
+            </div>
+        </div>
+        </div>
     </section>
     <script src="dist/js/script.min.js"></script>
 </body>

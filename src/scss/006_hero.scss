@@ -1,0 +1,66 @@
+@import "000_variables";
+
+.hero {
+  background-image: url(../img/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  padding: 45px 30px 0 30px;
+  text-align: center;
+  &__header {
+    font-family: Montserrat, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  &__subheader {
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(141, 129, 172, 255);
+    text-align: center;
+    padding-bottom: 14px;
+  }
+  &__text {
+    &--small {
+      font-family: Montserrat, sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      color: rgba(132, 142, 151, 255);
+      text-align: center;
+      text-transform: uppercase;
+      padding-bottom: 400px;
+    }
+    &--bottom {
+      font-family: Montserrat, sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      color: rgba(132, 142, 151, 255);
+      text-align: center;
+      padding-top: 13px;
+    }
+  }
+  &__bottom {
+    transform: translateY(50px);
+    margin-bottom: 47px;
+  }
+  &__button {
+    border:none;
+    padding: 16px 32px;
+    margin: 0 auto;
+    border-radius: 45px;
+    background-color: $basic-purple;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
+  }
+}
+
+.rev-editor__header {
+  padding-top: 47px;
+}
