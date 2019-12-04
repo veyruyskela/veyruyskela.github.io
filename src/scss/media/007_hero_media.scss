@@ -1,0 +1,31 @@
+@import "../000_variables";
+
+@media only screen and (min-width: 576px) {
+	.hero {
+	  &__header {
+	    font-size: 52px;
+	  }
+	  &__subheader {
+	    font-size: 18px;
+	  }
+	  &__button {
+	    font-size: 16px;
+	  }
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.hero {
+	  &__header {
+	    font-size: 60px;
+	  }
+	  &__subheader {
+	    font-size: 22px;
+	  }
+	  &__text {
+	    &--small {
+	      font-size: 12px;
+	    }
+	  }
+	}
+}
