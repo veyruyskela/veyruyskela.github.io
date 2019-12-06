@@ -81,7 +81,7 @@ img {
 	width: 648px;
 	margin: 0 auto;
 	display: grid;
-	grid-gap: 15px;
+	grid-gap: 25px;
 }
 
 .link {
@@ -105,7 +105,7 @@ img {
 }
 
 .item:hover img {
-	filter: blur(4px);
+	filter: blur(4px) brightness(75%);
 }
 
 .item:hover .project {
