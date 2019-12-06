@@ -53,6 +53,10 @@ img {
 	display: block;
 }
 
+a {
+	text-decoration: none;
+}
+
 .name {
 	color: white;
 	font-family: monospace;
@@ -78,6 +82,7 @@ img {
 }
 
 .container {
+	padding-top: 25px;
 	width: 648px;
 	margin: 0 auto;
 	display: grid;
